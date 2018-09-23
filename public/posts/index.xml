@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Felipe Bonesso</title>
+    <link>https://bonesso.io/posts/</link>
+    <description>Recent content in Posts on Felipe Bonesso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bonesso.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IP address lookup using Python</title>
+      <link>https://bonesso.io/posts/ip-address-lookup-using-python/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bonesso.io/posts/ip-address-lookup-using-python/</guid>
+      <description>Tutorial Hi all, today we are going to create an IP address lookup tool using Python, very useful when you need to discover where some list of domains are hosted at the moment or something like that 🙂
+First of all we need to set our environment and import some python packages:
+#!/usr/bin/env python import sys import os import socket We need to read our domains list from somewhere, I’ll use an simple input file that will be separated by line as example:</description>
+    </item>
+    
+    <item>
+      <title>Getting started with IPFS</title>
+      <link>https://bonesso.io/posts/getting-started-with-ipfs/</link>
+      <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bonesso.io/posts/getting-started-with-ipfs/</guid>
+      <description>Tutorial Did you ever hear about IPFS? Problably yes right?
+Anyway, IPFS is an exciting distributed file system that seeks to connect all computing devices with the same system of files. It’s a new protocol (ipfs://) that probably will replace the traditional web (http://) in a few years (maybe).
+I will give a few useful examples of how to get started.
+First of all, you need to install the IPFS package using the link bellow:</description>
+    </item>
+    
+  </channel>
+</rss>

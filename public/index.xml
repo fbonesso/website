@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Felipe Bonesso</title>
+    <link>https://bonesso.io/</link>
+    <description>Recent content on Felipe Bonesso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bonesso.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IP address lookup using Python</title>
+      <link>https://bonesso.io/posts/ip-address-lookup-using-python/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bonesso.io/posts/ip-address-lookup-using-python/</guid>
+      <description>Tutorial Hi all, today we are going to create an IP address lookup tool using Python, very useful when you need to discover where some list of domains are hosted at the moment or something like that 🙂
+First of all we need to set our environment and import some python packages:
+#!/usr/bin/env python import sys import os import socket We need to read our domains list from somewhere, I’ll use an simple input file that will be separated by line as example:</description>
+    </item>
+    
+    <item>
+      <title>Getting started with IPFS</title>
+      <link>https://bonesso.io/posts/getting-started-with-ipfs/</link>
+      <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bonesso.io/posts/getting-started-with-ipfs/</guid>
+      <description>Tutorial Did you ever hear about IPFS? Problably yes right?
+Anyway, IPFS is an exciting distributed file system that seeks to connect all computing devices with the same system of files. It’s a new protocol (ipfs://) that probably will replace the traditional web (http://) in a few years (maybe).
+I will give a few useful examples of how to get started.
+First of all, you need to install the IPFS package using the link bellow:</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://bonesso.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bonesso.io/about/</guid>
+      <description>Felipe Bonesso has been working with software development since 2009 when he started to work with a real estate CRM in Brazil.
+Through all these years he worked developing web solutions as a full custom CMS serving more than 3,000 sites and reducing costs using Amazon AWS.
+In the last year he has been dedicated to mobile platform, delivering a version of the company&amp;rsquo;s main product in the Apple Store and Googe Play, reaching more than 2,000 downloads in the first month of release.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://bonesso.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bonesso.io/contact/</guid>
+      <description>Email Feel free to contact me on my personal email: me@bonesso.io
+Questions Have questions or suggestions? Feel free to open an issue on my self-hosted Git or ask me on Twitter.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://bonesso.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bonesso.io/projects/</guid>
+      <description>Global Upload Global Upload is a file transportation service for InterPlanetary File System (IPFS), upload files to the future of distributed web.
+ ReactJS Go Lang IPFS FreeBSD  Distribution: Web (https://globalupload.io/)
+Year: 2016 - 2018
+Movilly Movilly is a social network for sharing your opinions about movies. Making it possible for people review and track all the movies watched.
+ React Native Go Lang Realm  Distribution: iOS and Android</description>
+    </item>
+    
+  </channel>
+</rss>

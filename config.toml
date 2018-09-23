@@ -1,0 +1,135 @@
+baseurl = "https://bonesso.io"
+title = "Felipe Bonesso"
+
+theme = "coder-portfolio"
+
+languagecode = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = "bonesso"
+
+[params]
+    author = "Felipe Bonesso"
+    description = "Felipe Bonesso's personal website"
+    keywords = "blog,developer,personal"
+    info = "Software Engineer"
+    avatarurl = "images/avatar.jpg"
+    footercontent = "D266 DDB7 A4E1 4C23 6A44 139F D7D5 5A39 13D9 FD23"
+    footerpgp = "PGP (PUBLIC KEY)"
+
+    hideCredits = false
+    hideCopyright = false
+
+    snsShare = true
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Git"
+    weight = 1
+    url = "https://git.bonesso.io/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/bonesso/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/fbonesso/"
+
+[[menu.main]]
+    name = "Posts"
+    weight = 1
+    url  = "posts"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "about"
+[[menu.main]]
+    name = "Projects"
+    weight = 3
+    url = "projects"
+[[menu.main]]
+    name = "Contact"
+    weight = 5
+    url = "contact"
+
+[languages]
+    [languages.en]
+        languagename = "English" # The language name to be displayed in the selector.
+        title = "Felipe Bonesso"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+        author = "Felipe Bonesso"
+        info = "Software Engineer"
+        description = "Felipe Bonesso's personal website"
+        keywords = "blog,developer,personal"
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1.0
+        url = "about"
+
+        [[languages.en.menu.main]]
+        name = "Posts"
+        weight = 2.0
+        url = "posts"
+
+        [[languages.en.menu.main]]
+        name = "Projects"
+        weight = 3
+        url = "projects"
+        [[languages.en.menu.main]]
+        name = "Contact"
+        weight = 5
+        url = "contact"
+
+
+#    [languages.pt]
+#        languagename = "Português"
+#        title = "Felipe Bonesso"
+#        footerpgp = "PGP (CHAVE PÚBLICA)"
+#
+#        [languages.pt.params]
+#            author = "Felipe Bonesso"
+#            description = ""
+#            keywords = ""
+#            info = "Desenvolvedor Full Stack"
+#
+#        [languages.pt.menu]
+#            [[languages.pt.menu.main]]
+#            name = "Sobre"
+#            weight = 1.0
+#            url = "about"
+#            [[languages.pt.menu.main]]
+#            name = "Posts"
+#            weight = 2.0
+#            url = "posts"
+#            [[languages.pt.menu.main]]
+#            name = "Projetos"
+#            weight = 3
+#            url = "projects"
+#            [[languages.pt.menu.main]]
+#            name = "Contato"
+#            weight = 5
+#            url = "contact"
